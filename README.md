@@ -2,13 +2,13 @@
 
 ## Server-Side (Spring Boot)
 
-- [ ] Set up Spring Boot project
-- [ ] Add required dependencies 
-- [ ] Configure WebSocket support
-- [ ] Create WebSocket configuration
-- [ ] Implement WebSocket message handler
-- [ ] Create data models for messages
-- [ ] Set up WebSocket controller for handling chat messages
+- [X] Set up Spring Boot project
+- [X] Add required dependencies 
+- [X] Configure WebSocket support
+- [X] Create WebSocket configuration
+- [X] Implement WebSocket message handler
+- [X] Create data models for messages
+- [X] Set up WebSocket controller for handling chat messages
 - [ ] Test WebSocket functionality 
 - [ ] Implement user authentication
 - [ ] Store and retrieve messages in a database
