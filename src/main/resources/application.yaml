@@ -1,0 +1,18 @@
+
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:mysql://your-database-url:3306/chatapp
+    username: root
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update # You can use "update", "create", "create-drop", "validate", or "none"
+    show-sql: true # Set this to true to show SQL queries in logs
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+    generate-ddl: true
